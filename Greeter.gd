@@ -2,4 +2,5 @@ extends Node2D
 
 
 func _ready():
-	print ("Hello World!")
+	var person = "you!"
+	print ("Hello " + person)
